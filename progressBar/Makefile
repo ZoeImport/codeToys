@@ -6,6 +6,6 @@ run: progress
 	 ./progress
 git:
 	git add .
-	@git commit -m "make auto commit"
+	@git commit -m "make auto commit	"
 clean:
 	rm progress

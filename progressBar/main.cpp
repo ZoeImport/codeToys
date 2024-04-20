@@ -21,7 +21,7 @@ void printProgress(float progress) {
   std::cout << "] " << static_cast<int>(progress * 100.0)
             << " %\r"; // 使用 \r 实现在同一行刷新输出
   std::cout.flush();   // 强制刷新缓冲区，立即输出到控制台
-}
+}   
 
 void progressBar() {
   constexpr int total = 100; // 使用 constexpr 常量定义总进度
