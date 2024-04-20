@@ -4,8 +4,5 @@ progress: main.cpp
 	@echo "compile over run after "
 run: progress
 	 ./progress
-git:
-	git add .
-	@git commit -m "make auto commit	"
 clean:
 	rm progress
